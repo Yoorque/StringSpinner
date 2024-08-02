@@ -2,11 +2,11 @@
 // https://docs.swift.org/swift-book
 import SwiftUI
 
-struct StringSpinnerView: View {
+public struct StringSpinnerView: View {
 	@State private var animating: Bool = false
 	var symbolGroups: [String]
 	
-	var body: some View {
+	public var body: some View {
 		VStack {
 			GeometryReader { geometry in
 				Circle()
