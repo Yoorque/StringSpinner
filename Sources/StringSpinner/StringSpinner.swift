@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 import SwiftUI
 
-struct StringSpinner: View {
+struct StringSpinnerView: View {
 	@State private var animating: Bool = false
 	var symbolGroups: [String]
 	
