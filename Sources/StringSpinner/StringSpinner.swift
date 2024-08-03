@@ -34,6 +34,9 @@ public struct StringSpinnerView: View {
 					}
 			}
 		}
+		.onAppear(perform: {
+			animating.toggle()
+		})
 		.padding()
 	}
 	
