@@ -34,10 +34,6 @@ public struct StringSpinnerView: View {
 					}
 			}
 		}
-		.contentShape(Rectangle())
-		.onTapGesture(perform: {
-			animating.toggle()
-		})
 		.padding()
 	}
 	
